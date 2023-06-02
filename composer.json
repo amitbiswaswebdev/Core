@@ -1,0 +1,44 @@
+{
+    "name": "easy-mage/module-core",
+    "version": "1.0.0",
+    "description": "This module provides reusable functionalities for other easy mage modules",
+    "keywords": [
+        "magento 2",
+        "magento",
+        "easymage",
+        "easy-mage",
+        "core",
+        "reusable"
+    ],
+    "type": "magento2-module",
+    "require": {
+        "php": "^8.1",
+        "magento/framework": "^103.0.5-p1"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "EasyMage\\Core\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Amit Biswas",
+            "email": "amit.biswas.webdev@gmail.com",
+            "role": "Magento 2 Extension Developer"
+        }
+    ],
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "support": {
+        "issues": "https://github.com/amitbiswaswebdev/IndexerDetails/issues"
+    },
+    "suggest": {
+        "magento/project-community-edition": "*"
+    }
+}
